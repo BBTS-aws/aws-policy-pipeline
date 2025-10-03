@@ -1,0 +1,17 @@
+[
+    {
+      "Sid": "GRRESTRICTROOTUSER",
+      "Effect": "Deny",
+      "Action": "*",
+      "Resource": [
+        "*"
+      ],
+      "Condition": {
+        "ArnLike": {
+          "aws:PrincipalArn": [
+            "arn:aws:iam::*:root"
+          ]
+        }
+      }
+    }
+]

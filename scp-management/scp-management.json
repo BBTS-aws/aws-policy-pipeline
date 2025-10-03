@@ -6,19 +6,10 @@
             "ID": "DevTest:215362878898"
         },
         "Guardrails": [
-            "restrict-root-access-keys"
+            "restrict-root-access-keys",
+            "restrict-root-user"
         ],
         "Policy": "",
         "Comments": "Guardrails for an account"
-    },
-    {
-        "SID": "finops-tagging",
-        "Target": {
-            "Type": "Account",
-            "ID": "DevTest:215362878898"
-        },
-        "Guardrails": [],
-        "Policy": "scp-tag-finops",
-        "Comments": "Enforce FinOps tagging requirements"
     }
 ]
