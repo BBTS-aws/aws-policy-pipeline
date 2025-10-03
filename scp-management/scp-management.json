@@ -6,7 +6,6 @@
             "ID": "DevTest:215362878898"
         },
         "Guardrails": [
-            "restrict-root-access-keys",
             "restrict-root-user"
         ],
         "Policy": "",
