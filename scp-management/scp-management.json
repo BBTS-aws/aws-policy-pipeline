@@ -1,0 +1,24 @@
+[
+    {
+        "SID": "example-account",
+        "Target": {
+            "Type": "Account",
+            "ID": "DevTest:215362878898"
+        },
+        "Guardrails": [
+            "restrict-root-access-keys"
+        ],
+        "Policy": "",
+        "Comments": "Guardrails for an account"
+    },
+    {
+        "SID": "finops-tagging",
+        "Target": {
+            "Type": "Account",
+            "ID": "DevTest:215362878898"
+        },
+        "Guardrails": [],
+        "Policy": "scp-tag-finops",
+        "Comments": "Enforce FinOps tagging requirements"
+    }
+]
