@@ -1,9 +1,9 @@
 [
     {
-        "SID": "example-account",
+        "SID": "nivel1",
         "Target": {
-            "Type": "Account",
-            "ID": "DevTest:215362878898"
+            "Type": "OU",
+            "ID": "Workloads:ou-dbw6-mqiy6wgd"
         },
         "Guardrails": [
             "restrict-root-user"
