@@ -10,15 +10,5 @@
         ],
         "Policy": "",
         "Comments": "Guardrails for an account"
-    },
-    {
-        "SID": "scp-dyna",
-        "Target": {
-            "Type": "Account",
-            "ID": "Dev Test:215362878898"
-        },
-        "Guardrails": [],
-        "Policy": "scp-dyna-monitoring",
-        "Comments": "Policy que permite o Dynatrace monitorar a conta"
     }
 ]
