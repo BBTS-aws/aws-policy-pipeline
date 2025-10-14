@@ -1,0 +1,26 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ec2:DescribeTags",
+                "ec2:DescribeAvailabilityZones",
+                "rds:DescribeDBInstances",
+                "lambda:ListFunctions",
+                "lambda:GetFunctionConfiguration",
+                "cloudwatch:GetMetricData",
+                "cloudwatch:ListMetrics",
+                "cloudwatch:DescribeAlarms",
+                "cloudwatch:GetMetricStatistics",
+                "tag:GetResources",
+                "tag:GetTagKeys",
+                "s3:ListAllMyBuckets",
+                "sts:GetCallerIdentity",
+                "sts:AssumeRole"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
